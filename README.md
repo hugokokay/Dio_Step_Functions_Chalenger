@@ -106,23 +106,23 @@ def lambda_handler(event, context):
 
 Abaixo estão os screenshots que demonstram o funcionamento da arquitetura:
 
-### Configuração do SNS
-![Step Functions - Configuração 01](./Imagens/StepFunctions01.png)
+### Configuração de SNS (Subscription)
+![Step Functions - Configuração SNS 01](./Imagens/StepFunctions01.png)
 
 ### Definição da Máquina de Estados
-![Step Functions - Definição 02](./Imagens/StepFunctions02.png)
+![Step Functions - Definição State Machine 02](./Imagens/StepFunctions02.png)
 
-### Execução da Step Function
-![Step Functions - Execução 03](./Imagens/StepFunctions03.png)
+### Eventos da Execução
+![Step Functions - Eventos 03](./Imagens/StepFunctions03.png)
 
-### Detalhe da Execução
-![Step Functions - Detalhe 04](./Imagens/StepFunctions04.png)
+### Configuração do Tópico SNS
+![Step Functions - Tópico SNS 04](./Imagens/StepFunctions04.png)
 
-### Invocação da Lambda
-![Step Functions - Lambda 05](./Imagens/StepFunctions05.png)
+### E-mail Recebido
+![Step Functions - Email Resultado 05](./Imagens/StepFunctions05.png)
 
-### Resultado Final
-![Step Functions - Resultado 06](./Imagens/StepFunctions06.png)
+### Código da Função Lambda
+![Step Functions - Código Lambda 06](./Imagens/StepFunctions06.png)
 
 ## 🧪 Como Testar
 
